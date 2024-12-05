@@ -8,10 +8,9 @@ Hello! I'm MJ-AHMAD, a passionate and dedicated professional with a strong backg
 
 ## Skills
 
-- **Programming Languages:** [List of programming languages you are proficient in]
-- **Frameworks and Libraries:** [List of frameworks and libraries you use]
-- **Tools and Technologies:** [List of tools and technologies you are familiar with]
-- **Soft Skills:** [List of soft skills such as communication, teamwork, problem-solving]
+- **Full-Stack Development:** [List of programming languages you are proficient in]
+- **API integration:** [List of frameworks and libraries you use]
+- **Secure Payment Solutions:** [List of tools and technologies you are familiar with]
 
 ## Projects
 
@@ -32,6 +31,7 @@ Hello! I'm MJ-AHMAD, a passionate and dedicated professional with a strong backg
 
 ## Future Plans
 
+My goal is to make education an indispensable part of evry child's life, enabling them to pursue their dreams and aspirations.
 I am constantly looking to expand my knowledge and skills. Here are some of my future plans:
 - **Learning:** [New technologies or skills you plan to learn]
 - **Projects:** [New projects you plan to undertake]
