@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stored Submissions</title>
+    <style>
+        .container {
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header, footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f1f1f1;
+        }
+        footer {
+            font-size: 0.9em;
+            color: #777;
+        }
+        footer a {
+            margin: 0 10px;
+            color: #777;
+            text-decoration: none;
+        }
+        .submission {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+            cursor: pointer;
+        }
+        .submission-details {
+            display: none;
+            margin-top: 10px;
+        }
+        .submission-details img {
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const submissions = JSON.parse(localStorage.getItem('submissions')) || [];
+            const container = document.getElementById('submissions-container');
+
+            submissions.forEach((submission, index) => {
+                const submissionDiv = document.createElement('div');
+                submissionDiv.className = 'submission';
+                submissionDiv.innerHTML = `<strong>Submission ${index + 1}</strong>`;
+                submissionDiv.addEventListener('click', () => {
+                    const detailsDiv = submissionDiv.querySelector('.submission-details');
+                    detailsDiv.style.display = detailsDiv.style.display === 'none' ? 'block' : 'none';
+                });
+
+                const detailsDiv = document.createElement('div');
+                detailsDiv.className = 'submission-details';
+                for (const key in submission) {
+                    const p = document.createElement('p');
+                    if (key === 'picture') {
+                        const img = document.createElement('img');
+                        img.src = submission[key];
+                        p.appendChild(img);
+                    } else {
+                        p.textContent = `${key}: ${submission[key]}`;
+                    }
+                    detailsDiv.appendChild(p);
+                }
+
+                submissionDiv.appendChild(detailsDiv);
+                container.appendChild(submissionDiv);
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>TRUSTED-ALLY</h1>
+    </header>
+    <div class="container">
+        <h2>Stored Submissions</h2>
+        <div id="submissions-container"></div>
+    </div>
+    <footer>
+        <p>&copy; 2024 TRUSTED-ALLY</p>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+    </footer>
+</body>
+</html>

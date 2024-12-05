@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Data Entry Form</title>
+    <style>
+        .container {
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header, footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f1f1f1;
+        }
+        footer {
+            font-size: 0.9em;
+            color: #777;
+        }
+        footer a {
+            margin: 0 10px;
+            color: #777;
+            text-decoration: none;
+        }
+        .submit-button {
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function submitForm(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const data = {};
+            formData.forEach((value, key) => {
+                if (key === 'picture') {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        data[key] = e.target.result;
+                        saveData(data);
+                    };
+                    reader.readAsDataURL(value);
+                } else {
+                    data[key] = value;
+                }
+            });
+
+            if (!formData.get('picture')) {
+                saveData(data);
+            }
+        }
+
+        function saveData(data) {
+            const submissions = JSON.parse(localStorage.getItem('submissions')) || [];
+            submissions.push(data);
+            localStorage.setItem('submissions', JSON.stringify(submissions));
+
+            // Redirect to submit.html
+            window.location.href = 'submit.html';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>TRUSTED-ALLY</h1>
+    </header>
+    <div class="container">
+        <h2>Volunteer Data Entry Form</h2>
+        <form onsubmit="submitForm(event)">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" required></textarea><br><br>
+
+            <label for="phone">Mobile Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="skills">Skills:</label><br>
+            <textarea id="skills" name="skills" required></textarea><br><br>
+
+            <label for="cv">Upload CV (Optional):</label><br>
+            <input type="file" id="cv" name="cv"><br><br>
+
+            <label for="picture">Upload Picture:</label><br>
+            <input type="file" id="picture" name="picture" required><br><br>
+
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 TRUSTED-ALLY</p>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+    </footer>
+</body>
+</html>
