@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>QURANER FARIWALA LTD.</title>
+    <style type="text/css">
+
+      #page-container {
+        max-width: 960px;
+        margin: 0 15px;
+      }
+
+      @media (min-width: 641px) {
+        #page-container {
+            margin: 0 30px;
+         }
+       }
+
+       @media (min-width: 1020px) {
+        #page-container {
+          margin: 0 auto;
+        }
+      }
+      .header-list {
+        font-size: 19px;
+        line-height: 1.31579;
+        padding: 0;
+        margin-top: 5px;
+        list-style-type: disc;
+        padding-left: 20px;
+        font-family: "proxima_nova", Arial, sans-serif;
+        font-weight: 400;
+        text-transform: none;
+      }
+
+     main {
+        padding-bottom: 3em;
+        font-family: "proxima_nova", Arial, sans-serif;
+        font-weight: 400;
+        text-transform: none;
+      }
+
+      @media (min-width: 641px) {
+      main {
+        font-size: 19px;
+        line-height: 1.31579;
+        }
+      }
+
+      h1.heading-xlarge {
+        word-wrap: break-word;
+        font: 48px proxima_nova, Arial, sans-serif;
+        font-weight: 700;
+        text-transform: none;
+        margin: 30px 0 60px;
+      }
+
+      .heading-large {
+        margin-bottom: 1em;
+        font-family: "proxima_nova", Arial, sans-serif;
+        font-weight: 700;
+        text-transform: none;
+      }
+
+       @media (min-width: 641px) {
+         .heading-large {
+           font-size: 36px;
+           line-height: 1.11111;
+         }
+       }
+
+      .heading-medium {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.25;
+      }
+
+      @media (min-width: 641px) {
+          .heading-medium {
+            margin-top: 1.875em;
+            margin-bottom: 0.83333em;
+          }
+       }
+
+      .heading-small {
+        font-family: "proxima_nova", Arial, sans-serif;
+        font-weight: 700;
+        text-transform: none;
+        margin-bottom: 0.3125em
+      }
+
+       @media (min-width: 641px) {
+         .heading-small {
+           margin-top: 1.05263em;
+           font-size: 19px;
+           line-height: 1.31579;
+           }
+        }
+
+     .list {
+        padding: 0;
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+
+      .list-bullet {
+       list-style-type: disc;
+       padding-left: 20px;
+      }
+
+      .visually-hidden {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+      }
+
+      span.status-tag {
+        background-color: #006435;
+        color: #fff;
+        margin-left: 0.75em;
+        vertical-align: baseline;
+        padding: 2px 5px 1px;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        display: inline-block;
+        position: relative;
+        top: -0.05em;
+      }
+
+      span.status-tag.ceased-tag {
+        background-color: #4B5253;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+      }
+
+      table tr td {
+        vertical-align: text-top;
+      }
+
+      table th, table td {
+        font-family: "proxima_nova", Arial, sans-serif;
+        font-weight: 400;
+        text-transform: none;
+        padding: 0.6em 1em 1em 0;
+        text-align: left;
+        color: #0b0c0c;
+        border-bottom: 1px solid #bfc1c3;
+      }
+
+      @media (min-width: 641px) {
+      table th, table td {
+        font-size: 19px;
+        line-height: 1.31579;
+        }
+      }
+
+       table th {
+        font-weight: 700;
+      }
+
+      .grid-row {
+        margin: 0 -15px;
+      }
+
+      @media (min-width: 641px) {
+        .column-quarter {
+           float: left;
+           width: 25%;
+         }
+       }
+
+        .column-quarter {
+          padding: 0 15px;
+          box-sizing: border-box;
+        }
+
+      .column-half {
+        float: left;
+        width: 50%;
+      }
+
+      .data {
+        font-weight: bold;
+      }
+
+      .normal {
+        font-weight: normal;
+      }
+
+      .heading-with-border {
+        border-top: 1px solid #bec0c2;
+        padding-top: 1.25em;
+      }
+
+      .pagebreak {
+        page-break-before: always;
+      }
+
+      .foreign-company-details-table {
+        margin-bottom: 1em;
+      }
+
+      .sentence-case {
+        text-transform: lowercase;
+        display: inline-block;
+      }
+
+      .sentence-case::first-letter {
+        text-transform: uppercase;
+      }
+
+      .bold {
+        font-weight: 700px;
+      }
+
+      .charge {
+        margin: 20px 0px;
+      }
+
+      .spacer {
+        width: 50%;
+      }
+
+      .particulars {
+        margin-top: 20px;
+      }
+
+      @media print {
+
+        .page-break {
+          min-height: 400px;
+          page-break-before: always;
+        }
+        .page {
+          min-height: 25cm;
+          border-style: solid;
+          border-width: 0;
+          page-break-after: always;
+          margin: 0 auto;
+          width: 170mm;
+          position: relative;
+        }
+        @page {
+          size: A4;
+        }
+        @media print {
+          body,
+          html {
+            height: 257mm;
+            margin: 0 auto;
+            width: 170mm;
+            font-size: 12px;
+          }
+        }
+        @media screen {
+          .page {
+            margin-bottom: 5em;
+          }
+        }
+        .section-marker {
+          left: 0;
+          position: absolute;
+          top: 0;
+
+          * {
+            position: relative;
+          }
+        }
+    </style>
+    <link href="https://d11ystzvnk2sve.cloudfront.net/stylesheets/assets-digital-cabinet-office-gov-uk-static/govuk-template.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="https://d11ystzvnk2sve.cloudfront.net/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+<body id="page-container">
+
+<header role="banner">
+    <span class="visually-hidden">QURANER FARIWALA LTD.</span><img src="https://document-render-assets-registry.s3-eu-west-1.amazonaws.com/accounts/images/ch-logo.png" alt="">
+
+    <h1 class="heading-xlarge">QURANER FARIWALA LTD.<br/>
+        14066998</h1>
+
+    
+
+    <p class="heading-small">Created: 20 December 2024 10:45:17</p>
+    <p class="heading-small">Companies House does not verify the accuracy of the information filed</p>
+</header>
+<main role="main">
+
+    <h2 class="heading-large">Overview</h2>
+    <ul class="list list-bullet">
+        
+            
+        <li>
+
+            
+                Registered office address:    
+            
+
+            
+            
+            
+            
+            20-22 Wenlock Road,
+            
+            
+            
+            London,
+            
+            
+            
+            England
+                
+            
+            
+            N1 7GU
+            
+        </li>
+        
+        
+
+        
+
+        
+            <li>Company type: Private limited company
+                </li>
+        
+
+        
+            
+        
+
+        
+            <li>Incorporated on: 25 April 2022</li>
+        
+
+        
+            <li>Dissolved on: 1 October 2024</li>
+        
+
+        
+            <li>Status: Dissolved
+                </li>
+        
+
+    </ul>
+
+    
+
+        
+
+        
+
+            
+                <h3 class="heading-small">Key filing dates</h3>
+                <ul class="list list-bullet">
+                    
+                        <li>Accounting reference date: 30 April </li>
+                    
+                    
+                        <li>Last accounts made up to: 30 April 2023</li>
+                    
+                    
+                    
+                        <li>Last confirmation statement date: 24 April 2023</li>
+                    
+                    
+                    
+                </ul>
+            
+        
+
+    
+
+    
+    <h3 class="heading-small">Nature of business (SIC)</h3>
+    <ul class="list list-bullet">
+        
+        <li>85600 Educational support services</li>
+        
+    </ul>
+    
+
+    
+
+    
+
+    <h2 class="heading-large">People</h2>
+
+    <h2 class="heading-medium">Officers:<br>
+         3 officers  /
+        
+             1 resignations 
+        
+    </h2>
+    
+        
+            <ul class="list list-bullet">
+
+                <li>Secretary SINTHIYA, Noushin Akhter
+
+                    
+                        
+                    
+
+                    </li>
+
+                    
+
+                    
+                        
+                            <li>Appointed: 6 May 2023</li>
+                        
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                        <li>Correspondence address:
+                            
+
+                            
+
+                            
+                                71/1 S K Das Road,
+                            
+
+                            
+                                Gendariya,
+                            
+
+                            
+
+                            
+                                Dhaka,
+                            
+
+                            
+                                Bangladesh,
+                            
+
+                            
+                                England,
+                            
+
+                            
+                            1204
+                            
+
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+            </ul>
+            <hr>
+        
+            <ul class="list list-bullet">
+
+                <li>Director AHMAD, Md Jafor
+
+                    
+                        
+                    
+
+                    </li>
+
+                    
+                        <li>Nationality: Bangladeshi</li>
+                    
+
+                    
+                        
+                            <li>Appointed: 25 April 2022</li>
+                        
+                    
+
+                    
+                        <li>Date of birth: November 1989 </li>
+                    
+
+                    
+
+                    
+
+                    
+                        <li>Correspondence address:
+                            
+
+                            
+
+                            
+                                20-22,
+                            
+
+                            
+                                Wenlock Road,
+                            
+
+                            
+
+                            
+                                London,
+                            
+
+                            
+
+                            
+                                England,
+                            
+
+                            
+                            N1 7GU
+                            
+
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                         <li>Country/State of Residence: Bangladesh</li>
+                    
+
+                    
+                        <li>Occupation: Business</li>
+                    
+
+                    
+
+            </ul>
+            <hr>
+        
+            <ul class="list list-bullet">
+
+                <li>Secretary JAMEL, Md Tarek
+
+                    
+                        
+                            
+                                <span id="officer-status-tag-resigned" class="status-tag ceased-tag">Resigned</span>
+                            
+                        
+                    
+
+                    </li>
+
+                    
+
+                    
+                        
+                            <li>Appointed: 5 May 2023</li>
+                        
+                    
+
+                    
+
+                    
+                        
+                            <li>Resigned: 1 December 2023</li>
+                        
+                    
+
+                    
+
+                    
+                        <li>Correspondence address:
+                            
+
+                            
+
+                            
+                                20-22,
+                            
+
+                            
+                                Wenlock Road,
+                            
+
+                            
+
+                            
+                                London,
+                            
+
+                            
+
+                            
+                                England,
+                            
+
+                            
+                            N1 7GU
+                            
+
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+            </ul>
+            <hr>
+        
+    
+
+    
+
+    
+
+    <h2 class="heading-medium">
+        
+            Persons with significant control:
+        <br>
+
+        
+
+        
+
+        
+            
+                1 person  with significant control
+             /
+        
+        
+            0 statements
+        
+    </h2>
+    
+        
+            
+                <ul class="list list-bullet">
+
+                    <li>
+                            Mr Md Jafor Ahmad
+                        
+
+                        
+                            
+                        
+                    </li>
+
+                    
+
+                    
+
+                    
+                    <li>Correspondence address:
+
+                        
+
+                        
+
+                        
+                        20-22,
+                        
+
+                        
+                        Wenlock Road,
+                        
+
+                        
+
+                        
+                        London,
+                        
+
+                        
+
+                        
+                        England,
+                        
+
+                        
+                        N1 7GU
+                        
+
+                    </li>
+                    
+
+                    
+
+                    
+                    <li> Notified on: 25 April 2022 </li>
+                    
+
+                    
+
+                    
+                    <li>Date of birth: November 1989 </li>
+                    
+
+                    
+                    <li>Nationality: Bangladeshi</li>
+                    
+
+                    
+                    <li>Country of residence: Bangladesh</li>
+                    
+
+                    
+                </ul>
+
+                
+                <h3 class="heading-small">Nature of control:</h3>
+
+                <ul class="list list-bullet">
+                    
+                    <li> Ownership of shares – 75% or more</li>
+                    
+                    <li> Ownership of voting rights - 75% or more</li>
+                    
+                    <li> Right to appoint or remove directors</li>
+                    
+                </ul>
+
+                
+            <hr>
+            
+        
+
+        
+    
+
+    
+        <h3 class="heading-large">Recent Filing History</h3>
+        <table>
+            <caption class="visually-hidden">Recent Filing History</caption>
+            
+            <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Form</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody><tr>
+                <td nowrap="nowrap">1 Oct 2024</td>
+                <td scope="row">GAZ2</td>
+                <td>Final Gazette dissolved via compulsory strike-off<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">16 Jul 2024</td>
+                <td scope="row">GAZ1</td>
+                <td>First Gazette notice for compulsory strike-off<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">8 Dec 2023</td>
+                <td scope="row">AA</td>
+                <td>Micro company accounts made up to 30 April 2023<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">8 Dec 2023</td>
+                <td scope="row">TM02</td>
+                <td>Termination of appointment of Md Tarek Jamel as a secretary on 1 December 2023<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">6 May 2023</td>
+                <td scope="row">CS01</td>
+                <td>Confirmation statement made on 24 April 2023 with updates<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">6 May 2023</td>
+                <td scope="row">AP03</td>
+                <td>Appointment of Ms Noushin Akhter Sinthiya as a secretary on 6 May 2023<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">5 May 2023</td>
+                <td scope="row">AP03</td>
+                <td>Appointment of Mr Md Tarek Jamel as a secretary on 5 May 2023<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">4 May 2023</td>
+                <td scope="row">CH01</td>
+                <td>Director&#39;s details changed for Mr Md Jafor Ahmad on 4 May 2023<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">26 Apr 2023</td>
+                <td scope="row">CH01</td>
+                <td>Director&#39;s details changed for Mr Md Jafor Ahmad on 26 April 2023<br>
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap">25 Apr 2022</td>
+                <td scope="row">NEWINC</td>
+                <td>Incorporation<br>
+                    
+                                <ul class="list list-bullet">
+                                    <li>MODEL ARTICLES model-articles-adopted</li>
+                                </ul>
+                            
+                        
+                                Statement of capital on 2022-04-25
+GBP 1
+                            
+                        
+                    
+                    <ul class="list list-bullet">
+                    
+                    
+                    </ul>
+                </td>
+            </tr>
+            
+            </tbody>
+        </table>
+    
+
+    
+
+    
+
+    
+
+    
+
+
+</main>
+</body>
+</html>
