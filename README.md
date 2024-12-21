@@ -340,10 +340,7 @@ Together Towards a Brighter Future
 
 # Comprehensive Project Plan for TechAlly Ventures
 
-Welcome to my GitHub profile! This repository serves as a comprehensive showcase of my personal identity, work, skills, and future plans. 
-Here, you'll find detailed information about my professional journey, projects, and the expertise I bring to the table.
 
-----
 
 <!-->
 
@@ -380,13 +377,15 @@ This comprehensive plan for TechAlly Ventures outlines a clear roadmap for the p
 
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img alt="Gasket" src="https://mj-ahmad.github.io/MJ-AHMAD-Insights/img/mjahmad.png" class="gasket-cover" width="496" />
+  <img alt="Gasket" src="https://mj-ahmad.github.io/MJ-AHMAD-Insights/img/mjahmad.png" class="gasket-cover" width="155" />
 </p>
+
+
 <p align="center">
-Please feel free to reach out if you have any questions
+Please feel free to reach out to me for any inquiries, collaborations,</p>
+<p align="center">
+<a href="https://www.linkedin.com/in/lukadusak"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://twitter.com/1ukadev"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" /></a>
+<a href="https://medium.com/@im-luka"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
+<a href="https://codepen.io/im-luka"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" /></a>
 </p>
-<div align="center">
-<img alt="Gasket" src="https://mj-ahmad.github.io/MJ-AHMAD-Insights/img/git.png" />
-  <img alt="Gasket" src="https://mj-ahmad.github.io/MJ-AHMAD-Insights/img/outlook.png" />
-</div>
----
