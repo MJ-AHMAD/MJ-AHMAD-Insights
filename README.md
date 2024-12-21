@@ -89,6 +89,14 @@ Together Towards a Brighter Future
         <li><a href="#vision">Vision</a></li>
           <li><a href="#our-mission">Our Mission</a></li>
       </ul>
+          <ul><li>
+          Document's </li>
+          <ul>
+          <li><a href="https://mj-ahmad.github.io/MJ_AHMAD_Insights/Ally-Docs/qfl-report.html">Quraner Fariwala Ltd.
+          </a>
+          </li>
+          </ul>
+          </ul>
     </li>
       </details>
     </ol>
