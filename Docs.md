@@ -1,48 +1,38 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img alt="Gasket" src="https://mj-ahmad.github.io/TRUSTED-ALLY/img/soft500.png" class="gasket-cover" width="496" />
-</p>
-<p align="center">
-Together Towards a Brighter Future
-</p>
+# Project Logo
+
+![Gasket](https://mj-ahmad.github.io/TRUSTED-ALLY/img/soft500.png)
+
+```python
 <div align="center">
-      <h3 align="center"><b>With a Vision for Tomorrow's Leaders</b></h3>
+```
+
+Together Towards a Brighter Future
 </div>
+
+## With a Vision for Tomorrow's Leaders
 
 ----
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>T-Ally</summary>
-  <ol>
-    <li>
-      <a href="#about-us">About Us</a>
-      <ul>
-        <li><a href="#vision">Vision</a></li>
-          <li><a href="#our-mission">Our Mission</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#our-work">Our Work</a>
-      <ul>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#specialties-of-trusted-ally">Specialties</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#Documents">Documents</a>
-      <ul>
-        <li><a href="#set-up-project">Set-Up Project</a></li></ul></li>
-    <li><a href="#commitments-of-trusted-ally">Commitments</a></li>
-    <li><a href="#industry">Industry & Type</a></li>
-    <li><a href="#our-culture">Our Culture</a></li>
-    <li><a href="#approach-of-trusted-ally">Approach</a></li>
-    <li><a href="#code-of-conduct">Code of Conduct</a></li>
-    <li><a href="#investor-page-for-trusted-ally">Investor</a></li>
-    <li><a href="#contact-us">Contact</a></li>
-    <li><a href="#our-opportunity-and-responsibility">Our Opportunity and Responsibility</a></li>
-  </ol>
-</details>
+### T-Ally
 
+1. [About Us](#about-us)
+    - [Vision](#vision)
+    - [Our Mission](#our-mission)
+2. [Our Work](#our-work)
+    - [Products](#products)
+    - [Specialties](#specialties-of-trusted-ally)
+3. [Documents](#set-up-project)
+    - [Set-Up Project](#set-up-project)
+4. [Commitments](#commitments-of-trusted-ally)
+
+5. [Our Culture](#our-culture)
+6. [Approach](#approach-of-trusted-ally)
+7. [Code of Conduct](#code-of-conduct)
+8. [Investor](#investor-page-for-trusted-ally)
+9. [Contact](#contact-us)
+10. [Our Opportunity and Responsibility](#our-opportunity-and-responsibility)
+
+</details>
 
 ## About Us
 
@@ -151,92 +141,105 @@ At TRUSTED-ALLY, we are committed to building a future where innovation, integri
     - Focus on creating lasting impact through sustainable and scalable initiatives.
     - Empower future generations with the skills and knowledge they need to thrive.
 
-### Vision for the Future
+### Our Future Vision and Goals
+
 **"Together Towards a Brighter Future"** –  TRUSTED-ALLY is committed to creating a better and more educated society. Through this comprehensive approach, TRUSTED-ALLY aims to achieve its mission and contribute significantly to the development of future leaders and an enlightened community.
 
----
 ### Our Work
 
 At **TRUSTED-ALLY**, our work is driven by our commitment to education, community empowerment, and sustainable development. We believe in creating lasting impacts through innovative programs and initiatives that cater to the diverse needs of our communities. Below are some of the key areas where our efforts are focused:
 
 #### 1. Educational Programs
+
 - **Access to Quality Education**: Providing accessible and quality education to children and adults through various programs and initiatives.
 - **Innovative Learning Methods**: Implementing innovative teaching methods and technology-driven solutions to enhance learning experiences.
 - **Scholarships and Financial Aid**: Offering scholarships and financial assistance to deserving students to ensure that financial constraints do not hinder their educational pursuits.
 
 #### 2. Community Empowerment
+
 - **Skills Development**: Conducting training and development programs to equip individuals with essential skills for employment and entrepreneurship.
 - **Women's Empowerment**: Initiatives aimed at empowering women through education, skill development, and leadership programs.
 - **Youth Leadership**: Programs designed to nurture leadership qualities and civic engagement among young people.
 
 #### 3. Health and Well-being
+
 - **Health Education**: Raising awareness about health and hygiene practices through workshops and campaigns.
 - **Mental Health Support**: Providing resources and support for mental health and well-being to ensure holistic development.
 - **Nutritional Programs**: Implementing nutritional programs to address food security and promote healthy eating habits.
 
 #### 4. Environmental Sustainability
+
 - **Green Initiatives**: Promoting environmental sustainability through green initiatives and eco-friendly practices.
 - **Environmental Education**: Educating the community about the importance of environmental conservation and sustainable living.
 - **Community Clean-up Drives**: Organizing clean-up drives and tree planting activities to create a cleaner and greener environment.
 
 #### 5. Technology and Innovation
+
 - **Tech Education**: Providing training in technology and digital skills to bridge the digital divide and empower the community.
 - **Innovation Hubs**: Establishing innovation hubs where individuals can collaborate and develop new ideas and solutions.
 - **Digital Literacy**: Promoting digital literacy among all age groups to ensure they can effectively utilize technology in their daily lives.
 
 #### 6. Partnerships and Collaborations
+
 - **Collaborative Projects**: Partnering with educational institutions, non-profits, government agencies, and private sector organizations to amplify our impact.
 - **Community Involvement**: Engaging local communities in our programs to ensure they are tailored to meet their specific needs.
 - **Resource Sharing**: Sharing resources and best practices with our partners to build a stronger and more supportive network.
 
 ### Impact Stories
+
 - **Success Stories**: Highlighting the success stories of individuals and communities who have benefited from our programs.
 - **Case Studies**: Documenting case studies that demonstrate the effectiveness of our initiatives and the positive changes they bring about.
 
-### Vision for the Future
-**"Together Towards a Brighter Future"** – TRUSTED-ALLY is dedicated to building a brighter future for all through education, empowerment, and innovation. Our work is a testament to our commitment to creating a positive and lasting impact on society.
+### Our Vision for the Future
 
+**"Together Towards a Brighter Future"** – TRUSTED-ALLY is dedicated to building a brighter future for all through education, empowerment, and innovation. Our work is a testament to our commitment to creating a positive and lasting impact on society.
 
 ### Products
 
 At **TRUSTED-ALLY**, we offer a variety of products and services designed to enhance education, empower communities, and promote sustainable development. Our products are developed with a focus on quality, innovation, and inclusivity to ensure they meet the diverse needs of our beneficiaries. Below are some of the key products offered by TRUSTED-ALLY:
 
 #### 1. **Educational Toolkits**
-   - **Learning Modules**: Comprehensive learning modules covering a wide range of subjects, designed to make learning engaging and effective.
-   - **Teacher Resources**: Materials and guides to support teachers in delivering high-quality education and fostering a positive learning environment.
-   - **Student Resources**: Study materials, practice exercises, and interactive content to enhance students’ learning experiences.
+
+- **Learning Modules**: Comprehensive learning modules covering a wide range of subjects, designed to make learning engaging and effective.
+- **Teacher Resources**: Materials and guides to support teachers in delivering high-quality education and fostering a positive learning environment.
+- **Student Resources**: Study materials, practice exercises, and interactive content to enhance students’ learning experiences.
 
 #### 2. **E-Learning Platforms**
-   - **Virtual Classrooms**: Online platforms that facilitate interactive virtual classes, allowing students to learn from anywhere.
-   - **Online Courses**: A variety of courses across different subjects and skill levels, accessible to all learners.
-   - **Assessment Tools**: Online assessment tools to evaluate students’ progress and provide personalized feedback.
+
+- **Virtual Classrooms**: Online platforms that facilitate interactive virtual classes, allowing students to learn from anywhere.
+- **Online Courses**: A variety of courses across different subjects and skill levels, accessible to all learners.
+- **Assessment Tools**: Online assessment tools to evaluate students’ progress and provide personalized feedback.
 
 #### 3. **Skill Development Programs**
-   - **Vocational Training**: Programs focused on developing practical skills for employment in various trades and industries.
-   - **Soft Skills Training**: Workshops and courses aimed at improving communication, leadership, and other essential soft skills.
-   - **Entrepreneurship Training**: Support and resources for aspiring entrepreneurs to help them start and grow their businesses.
+
+- **Vocational Training**: Programs focused on developing practical skills for employment in various trades and industries.
+- **Soft Skills Training**: Workshops and courses aimed at improving communication, leadership, and other essential soft skills.
+- **Entrepreneurship Training**: Support and resources for aspiring entrepreneurs to help them start and grow their businesses.
 
 #### 4. **Health and Wellness Products**
-   - **Health Education Kits**: Educational materials and resources to promote health and hygiene practices.
-   - **Mental Health Resources**: Tools and support for mental health and well-being, including counseling and self-help materials.
-   - **Nutritional Supplements**: Providing essential vitamins and nutrients to support the health of students and community members.
+
+- **Health Education Kits**: Educational materials and resources to promote health and hygiene practices.
+- **Mental Health Resources**: Tools and support for mental health and well-being, including counseling and self-help materials.
+- **Nutritional Supplements**: Providing essential vitamins and nutrients to support the health of students and community members.
 
 #### 5. **Environmental Sustainability Solutions**
-   - **Green Technology Kits**: Educational kits and resources focused on renewable energy and sustainable living practices.
-   - **Eco-friendly Products**: Products made from sustainable materials to promote eco-friendly practices.
-   - **Community Garden Projects**: Resources and support for community gardens to promote local food production and environmental awareness.
+
+- **Green Technology Kits**: Educational kits and resources focused on renewable energy and sustainable living practices.
+- **Eco-friendly Products**: Products made from sustainable materials to promote eco-friendly practices.
+- **Community Garden Projects**: Resources and support for community gardens to promote local food production and environmental awareness.
 
 #### 6. **Technology and Innovation Products**
-   - **Digital Literacy Kits**: Tools and resources to improve digital literacy among students and community members.
-   - **Tech Education Programs**: Courses and workshops on programming, robotics, and other technology-related subjects.
-   - **Innovation Labs**: Spaces equipped with the latest technology where students and community members can experiment and innovate.
+
+- **Digital Literacy Kits**: Tools and resources to improve digital literacy among students and community members.
+- **Tech Education Programs**: Courses and workshops on programming, robotics, and other technology-related subjects.
+- **Innovation Labs**: Spaces equipped with the latest technology where students and community members can experiment and innovate.
 
 #### 7. **Community Development Programs**
-   - **Community Empowerment Kits**: Resources to support community leaders in developing and implementing community improvement projects.
-   - **Women's Empowerment Products**: Tools and resources specifically designed to empower women through education and skill development.
-   - **Youth Leadership Programs**: Programs aimed at developing leadership skills in young people to prepare them for future roles in the community.
 
-### Vision for the Future
+- **Community Empowerment Kits**: Resources to support community leaders in developing and implementing community improvement projects.
+- **Women's Empowerment Products**: Tools and resources specifically designed to empower women through education and skill development.
+- **Youth Leadership Programs**: Programs aimed at developing leadership skills in young people to prepare them for future roles in the community.
+
 **"Together Towards a Brighter Future"** – TRUSTED-ALLY is committed to creating products that make a meaningful difference in the lives of individuals and communities. Our focus on quality, innovation, and inclusivity ensures that our products meet the diverse needs of those we serve, helping to create a more educated, empowered, and sustainable world.
 
 ### Commitments of TRUSTED-ALLY
@@ -285,8 +288,6 @@ At **TRUSTED-ALLY**, we offer a variety of products and services designed to enh
     - Prepare the next generation of leaders with the skills and knowledge they need to succeed.
     - Invest in programs that have a long-term positive impact on society.
 
-
-
 ### Specialties of TRUSTED-ALLY
 
 1. **Comprehensive Educational Programs**:
@@ -329,9 +330,9 @@ At **TRUSTED-ALLY**, we offer a variety of products and services designed to enh
     - Scholarships and financial assistance for meritorious and financially disadvantaged students.
     - Removing financial barriers to access education.
 
-### Vision for the Future
-**"Together Towards a Brighter Future"** – TRUSTED-ALLY believes that a better and enlightened society can be built through education. TRUSTED-ALLY dedicates all its resources and activities to achieving this goal.
+### Our Future Vision
 
+**"Together Towards a Brighter Future"** – TRUSTED-ALLY believes that a better and enlightened society can be built through education. TRUSTED-ALLY dedicates all its resources and activities to achieving this goal.
 
 ### Our Opportunity and Responsibility
 
@@ -402,6 +403,7 @@ At **TRUSTED-ALLY**, we recognize the immense opportunity we have to make a posi
     - Monitoring and evaluating our impact to ensure that we are meeting our goals and making a difference.
 
 ### Vision for the Future
+
 **"Together Towards a Brighter Future"** – TRUSTED-ALLY is committed to leveraging its opportunities and fulfilling its responsibilities to create a more educated, empowered, and equitable world.
 
 ### Code of Conduct
@@ -409,6 +411,7 @@ At **TRUSTED-ALLY**, we recognize the immense opportunity we have to make a posi
 At **TRUSTED-ALLY**, we are committed to fostering a welcoming, inclusive, and respectful environment for everyone involved in our projects. This Code of Conduct outlines our expectations for behavior and provides guidelines for reporting and addressing any issues that may arise.
 
 #### Our Values
+
 - **Respect**: Treat everyone with respect, kindness, and empathy. Value diverse perspectives and experiences.
 - **Inclusivity**: Promote an inclusive environment where everyone feels welcome and valued, regardless of their background or identity.
 - **Integrity**: Act with honesty and integrity in all interactions and decisions. Uphold the highest standards of ethical behavior.
@@ -416,6 +419,7 @@ At **TRUSTED-ALLY**, we are committed to fostering a welcoming, inclusive, and r
 - **Excellence**: Strive for excellence in all our endeavors, continuously seeking to improve and innovate.
 
 #### Expected Behavior
+
 - **Be Respectful**: Show respect to all participants, including team members, contributors, and community members. Avoid discriminatory, derogatory, or offensive language and behavior.
 - **Be Inclusive**: Ensure that everyone feels included and valued. Avoid exclusionary practices and make an effort to involve all participants.
 - **Be Considerate**: Consider the impact of your actions and words on others. Be mindful of different perspectives and experiences.
@@ -423,6 +427,7 @@ At **TRUSTED-ALLY**, we are committed to fostering a welcoming, inclusive, and r
 - **Be Professional**: Maintain a professional demeanor in all interactions. Uphold the reputation of TRUSTED-ALLY and its projects.
 
 #### Unacceptable Behavior
+
 - **Harassment**: Harassment of any kind, including but not limited to, verbal or written comments, physical contact, or unwelcome attention, is not tolerated.
 - **Discrimination**: Discrimination based on race, gender, sexual orientation, disability, religion, or any other characteristic is strictly prohibited.
 - **Bullying**: Bullying, intimidation, or any form of coercion is unacceptable.
@@ -430,36 +435,39 @@ At **TRUSTED-ALLY**, we are committed to fostering a welcoming, inclusive, and r
 - **Inappropriate Content**: Sharing or promoting inappropriate, offensive, or harmful content is prohibited.
 
 #### Reporting and Addressing Issues
+
 - **Reporting**: If you experience or witness any behavior that violates this Code of Conduct, please report it to the designated contact person or team. Reports can be made confidentially and will be taken seriously.
 - **Investigation**: All reports of misconduct will be investigated promptly and thoroughly. The privacy and confidentiality of all parties involved will be respected.
 - **Consequences**: Participants who violate this Code of Conduct may face consequences, including but not limited to, warnings, temporary suspension, or permanent removal from the project.
 
 #### Commitment to Improvement
+
 - **Continuous Improvement**: We are committed to continuously improving our Code of Conduct and ensuring it meets the needs of our community. Feedback and suggestions are always welcome.
 - **Education and Training**: We will provide education and training to all participants to promote understanding and adherence to this Code of Conduct.
 
 For more details, please visit our [Code of Conduct FAQ](#code-of-conduct-faq).
 
----
-
 ### Code of Conduct FAQ
 
 #### Why have a Code of Conduct?
+
 A Code of Conduct helps create a safe and inclusive environment for all participants. It sets clear expectations for behavior and provides guidelines for addressing issues that may arise.
 
 #### What should I do if I witness or experience a violation of the Code of Conduct?
+
 If you witness or experience any behavior that violates the Code of Conduct, please report it to the designated contact person or team. Reports can be made confidentially and will be taken seriously.
 
 #### How are reports of misconduct handled?
+
 All reports of misconduct are investigated promptly and thoroughly. The privacy and confidentiality of all parties involved are respected. Participants who violate the Code of Conduct may face consequences, including warnings, temporary suspension, or permanent removal from the project.
 
 #### Can I provide feedback on the Code of Conduct?
+
 Yes, we welcome feedback and suggestions for improving our Code of Conduct. Please contact us with your thoughts and ideas.
 
 #### How can I learn more about the Code of Conduct?
-For more information, please refer to the full [Code of Conduct](#code-of-conduct) document.
 
----
+For more information, please refer to the full [Code of Conduct](#code-of-conduct) document.
 
 ### Investor Page for TRUSTED-ALLY
 
@@ -557,8 +565,7 @@ Bangladesh - 4701
 
 Join us in our journey **Together Towards a Brighter Future**. Your investment can make a difference and help us create a more educated, empowered, and sustainable world.
 
----
-**Our Culture and Careers** 
+## Our Culture and Careers
 
 ### Our Culture
 
@@ -622,19 +629,18 @@ We are always looking for passionate and dedicated individuals to join our team.
 
 **Together Towards a Brighter Future!**
 
-
 **Industry:**
+
 - **Education**
 - **Social Impact**
 - **Technology**
 - **Non-Profit Organization**
 
 **Type:**
+
 - **Non-Profit**
 - **Educational Initiative**
 - **Community Service**
-
-
 
 ## Subsidiaries
 
@@ -649,6 +655,7 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 ### EduAlly Initiatives
 
 **EduAlly Initiatives** focuses on providing accessible and quality education to children and adults. Our programs include:
+
 - **Access to Quality Education**: Ensuring that everyone has access to quality education through various programs and initiatives.
 - **Innovative Learning Methods**: Implementing innovative teaching methods and technology-driven solutions to enhance learning experiences.
 - **Scholarships and Financial Aid**: Offering scholarships and financial assistance to deserving students to ensure that financial constraints do not hinder their educational pursuits.
@@ -656,6 +663,7 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 ### EmpowerAlly Programs
 
 **EmpowerAlly Programs** are designed to empower communities through skills development, women's empowerment, and youth leadership initiatives. Our efforts include:
+
 - **Skills Development**: Conducting training and development programs to equip individuals with essential skills for employment and entrepreneurship.
 - **Women's Empowerment**: Initiatives aimed at empowering women through education, skill development, and leadership programs.
 - **Youth Leadership**: Programs designed to nurture leadership qualities and civic engagement among young people.
@@ -663,6 +671,7 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 ### HealthAlly Services
 
 **HealthAlly Services** focuses on promoting health and well-being within communities. Our initiatives include:
+
 - **Health Education**: Raising awareness about health and hygiene practices through workshops and campaigns.
 - **Mental Health Support**: Providing resources and support for mental health and well-being to ensure holistic development.
 - **Nutritional Programs**: Implementing nutritional programs to address food security and promote healthy eating habits.
@@ -670,6 +679,7 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 ### GreenAlly Initiatives
 
 **GreenAlly Initiatives** promotes environmental sustainability through various green initiatives and eco-friendly practices. Our efforts include:
+
 - **Green Initiatives**: Promoting environmental sustainability through green initiatives and eco-friendly practices.
 - **Environmental Education**: Educating the community about the importance of environmental conservation and sustainable living.
 - **Community Clean-up Drives**: Organizing clean-up drives and tree planting activities to create a cleaner and greener environment.
@@ -677,6 +687,7 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 ### TechAlly Innovation
 
 **TechAlly Innovation** focuses on bridging the digital divide and empowering communities through technology and innovation. Our programs include:
+
 - **Tech Education**: Providing training in technology and digital skills to empower the community.
 - **Innovation Hubs**: Establishing innovation hubs where individuals can collaborate and develop new ideas and solutions.
 - **Digital Literacy**: Promoting digital literacy among all age groups to ensure they can effectively utilize technology in their daily lives.
@@ -684,6 +695,7 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 ### PartnerAlly Collaborations
 
 **PartnerAlly Collaborations** focuses on building strong partnerships and collaborations to amplify our impact. Our efforts include:
+
 - **Collaborative Projects**: Partnering with educational institutions, non-profits, government agencies, and private sector organizations.
 - **Community Involvement**: Engaging local communities in our programs to ensure they are tailored to meet their specific needs.
 - **Resource Sharing**: Sharing resources and best practices with our partners to build a stronger and more supportive network.
@@ -691,6 +703,7 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 ### AllyVoyage
 
 **AllyVoyage** is a creative and effective travel agency that provides comprehensive travel management, itinerary planning, and customer support. Our services include:
+
 - **Flights Search Engine**: Offering a powerful search engine to find the best flight options.
 - **Real-Time Flight Results**: Providing real-time flight results to ensure up-to-date information.
 - **Flight Tickets Booking and Issue**: Facilitating the booking and issuance of flight tickets with ease and efficiency.
@@ -700,15 +713,19 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 **TRUSTED-ALLY** utilizes a modern and versatile technology stack to ensure robust, scalable, and efficient solutions. Our chosen technologies are:
 
 ### Frontend
+
 - **React.js**: A powerful JavaScript library for building dynamic and responsive user interfaces. React's component-based architecture and virtual DOM make it ideal for developing highly interactive web applications.
 
 ### Backend
+
 - **ASP.NET Core**: A high-performance, open-source framework for building modern, cloud-based, and internet-connected applications. ASP.NET Core provides robust support for building RESTful APIs and serves as the backbone of our server-side logic.
 
 ### Database
+
 - **SQL Server**: A reliable and scalable relational database management system (RDBMS) for storing and managing structured data. SQL Server ensures data integrity, security, and high availability.
 
 ### APIs and Integrations
+
 - **Meta Developer API**: Integrates with Meta's advertising tools to manage ad campaigns, insights, and targeting.
 - **Google Ads API**: Facilitates automated management of Google Ads campaigns and reporting.
 - **OpenWebDocs**: Provides comprehensive documentation and best practices for web development.
@@ -720,18 +737,21 @@ At TechAlly Ventures, we believe in shaping a brighter future through innovative
 - **Microsoft Graph API**: Connects to a wide range of Microsoft services for analytics and data integration.
 
 ### DevOps and CI/CD
+
 - **Azure DevOps**: A comprehensive suite of development tools for continuous integration, continuous delivery, and project management.
 - **GitHub**: Source code management and version control, facilitating collaboration and code reviews.
 
 ### Security
+
 - **OAuth2**: For secure API authentication and authorization.
 - **HTTPS**: Ensures encrypted communication between the client and server.
 
 ### Testing
+
 - **Jest**: A delightful JavaScript testing framework with a focus on simplicity.
 - **xUnit**: A free, open-source, community-focused unit testing tool for the .NET Framework.
 
-## Contact Us
+## Get in Touch
 
 **Address**:  
 01/A, Ally Street,  
@@ -743,11 +763,7 @@ Email: [t-ally@outlook.com](mailto:t-ally@outlook.com)
 Mobile: +880 132 2371643  
 Website: [https://mj-ahmad.github.io/TrustedAlly](https://mj-ahmad.github.io/TrustedAlly)
 
----
-
-
-
-# MJ-AHMAD Insights
+## MJ-AHMAD Insights
 
 Welcome to my GitHub profile! This repository serves as a comprehensive showcase of my personal identity, work, skills, and future plans. Here, you'll find detailed information about my professional journey, projects, and the expertise I bring to the table.
 
@@ -765,16 +781,19 @@ Hello! I'm MJ-AHMAD, a passionate and dedicated professional with a strong backg
 ## Projects
 
 ### Project 1: [Project Name]
+
 - **Description:** [Brief description of the project]
 - **Technologies Used:** [List of technologies used in the project]
 - **Link:** [Link to the project repository or demo]
 
 ### Project 2: [Project Name]
+
 - **Description:** [Brief description of the project]
 - **Technologies Used:** [List of technologies used in the project]
 - **Link:** [Link to the project repository or demo]
 
 ### Project 3: [Project Name]
+
 - **Description:** [Brief description of the project]
 - **Technologies Used:** [List of technologies used in the project]
 - **Link:** [Link to the project repository or demo]
@@ -782,23 +801,22 @@ Hello! I'm MJ-AHMAD, a passionate and dedicated professional with a strong backg
 ## Future Plans
 
 I am constantly looking to expand my knowledge and skills. Here are some of my future plans:
+
 - **Learning:** [New technologies or skills you plan to learn]
 - **Projects:** [New projects you plan to undertake]
-- **Collaborations:** [Areas where you are looking to collaborate with others
-
-]
+- **Collaborations:** [Areas where you are looking to collaborate with others]
 
 ## Contact
 
 Feel free to reach out to me for any inquiries, collaborations, or just to say hello! You can contact me via:
+
 - **Email:** [Your email address]
 - **LinkedIn:** [Your LinkedIn profile link]
 - **Twitter:** [Your Twitter handle]
 
----
+### Set-Up Project
 
-### set-up project 
-- follow these steps:
+Follow these steps:
 
 1. **Navigate to the Projects Section**:
     - Go to your GitHub repository.
@@ -826,79 +844,64 @@ Feel free to reach out to me for any inquiries, collaborations, or just to say h
     - Move cards across columns as tasks progress.
     - Update issues directly from the project board.
 
-
-
-
-
-
 Thank you for visiting my GitHub profile! I look forward to connecting with you and exploring new opportunities together.
 
-।
+- Documentation:
+  - ProjectPlan.docx
+  - RiskAssessment.docx
+  - UserManual.docx
+  - ChangeLog.txt
+- Data:
+  - Logs:
+    - SystemLogs
+    - SecurityLogs
+    - NetworkLogs
+  - Backups:
+    - DailyBackups
+    - WeeklyBackups
+    - MonthlyBackups
+  - Reports:
+    - VulnerabilityReports
+    - IncidentReports
+    - ComplianceReports
+- Scripts:
+  - Python:
+    - PasswordStrengthCheck.py
+    - NetworkScanning.py
+    - DataEncryption.py
+  - PowerShell:
+    - SystemConfiguration.ps1
+    - SecurityAuditing.ps1
+- Tools:
+  - SecurityTools:
+    - Antivirus
+    - Firewall
+    - IntrusionDetectionSystem
+  - NetworkTools:
+    - PacketSniffer
+    - NetworkScanner
+- Website:
+  - TypoProtection:
+    - Rules.txt
+    - ErrorPages
+  - PasswordMonitor:
+    - PasswordPolicy.docx
+    - PasswordBreachAlerts
+  - SmartScreen:
+    - FilterRules.json
+    - BlockedSites.txt
 
-
-
-
- * Documentation:
-   * ProjectPlan.docx 
-   * RiskAssessment.docx 
-   * UserManual.docx 
-   * ChangeLog.txt 
- * Data:
-   * Logs: 
-     * SystemLogs
-     * SecurityLogs
-     * NetworkLogs
-   * Backups: 
-     * DailyBackups
-     * WeeklyBackups
-     * MonthlyBackups
-   * Reports: 
-     * VulnerabilityReports
-     * IncidentReports
-     * ComplianceReports
- * Scripts:
-   * Python: 
-     * PasswordStrengthCheck.py
-     * NetworkScanning.py
-     * DataEncryption.py
-   * PowerShell: 
-     * SystemConfiguration.ps1
-     * SecurityAuditing.ps1
- * Tools:
-   * SecurityTools: 
-     * Antivirus
-     * Firewall
-     * IntrusionDetectionSystem
-   * NetworkTools: 
-     * PacketSniffer
-     * NetworkScanner
- * Website:
-   * TypoProtection: 
-     * Rules.txt
-     * ErrorPages
-   * PasswordMonitor: 
-     * PasswordPolicy.docx
-     * PasswordBreachAlerts
-   * SmartScreen: 
-     * FilterRules.json
-     * BlockedSites.txt
 Detailed explanation:
- * Documentation: 
- * Data: 
- * Scripts: 
- * Tools: 
- * Website:
-   
+
+- Documentation:
+- Data:
+- Scripts:
+- Tools:
+- Website:
+
 Additional tips:
- * Version Control: 
- * Cloud Storage: 
- * Encryption: 
- * Access Control: 
 
- 
-
-
-
-
-
-
+- Version Control:
+- Cloud Storage:
+- Encryption:
+- Access Control:
