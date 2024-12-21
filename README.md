@@ -380,14 +380,13 @@ This comprehensive plan for TechAlly Ventures outlines a clear roadmap for the p
 
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img alt="Gasket" src="https://mj-ahmad.github.io/TRUSTED-ALLY/img/soft500.png" class="gasket-cover" width="496" />
+  <img alt="Gasket" src="https://mj-ahmad.github.io/MJ-AHMAD-Insights/img/mjahmad.png" class="gasket-cover" width="496" />
 </p>
 <p align="center">
-Together Towards a Brighter Future
+Please feel free to reach out if you have any questions
 </p>
 <div align="center">
-      <h3 align="center"><b>With a Vision for Tomorrow's Leaders</b></h3>
+<img alt="Gasket" src="https://mj-ahmad.github.io/MJ-AHMAD-Insights/img/git.png" />
+  <img alt="Gasket" src="https://mj-ahmad.github.io/MJ-AHMAD-Insights/img/outlook.png" />
 </div>
-
-----
-        
+---
