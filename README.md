@@ -105,15 +105,6 @@ Together Towards a Brighter Future
     
 ----
 
-# About Us
-
-**TRUSTED-ALLY** is dedicated to building a brighter future for all through education, empowerment, and innovation. Our work is a testament to our commitment to creating a positive and lasting impact on society.
-
-## Vision
-
-
-
-
 # MJ-AHMAD Insights
 
 Welcome to my GitHub profile! This repository serves as a comprehensive showcase of my personal identity, work, skills, and future plans. Here, you'll find detailed information about my professional journey, projects, and the expertise I bring to the table.
