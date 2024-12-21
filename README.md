@@ -92,7 +92,7 @@ Together Towards a Brighter Future
           <ul><li>
           Document's </li>
           <ul>
-          <li><a href="https://mj-ahmad.github.io/MJ_AHMAD_Insights/Ally-Docs/qfl-report.html">Quraner Fariwala Ltd.
+          <li><a href="https://mj-ahmad.github.io/MJ-AHMAD-Insights/Ally-Docs/qfl-report.html">Quraner Fariwala Ltd.
           </a>
           </li>
           </ul>
