@@ -81,29 +81,25 @@ Together Towards a Brighter Future
       </ul>
     </li>
       </details>
-      <details>
+            <details>
         <summary>QURANER FARIWALA</summary>
         <li>
               <a href="#about-us">About Us</a>
       <ul>
         <li><a href="#vision">Vision</a></li>
           <li><a href="#our-mission">Our Mission</a></li>
+              <li><a href="https://mj-ahmad.github.io/MJ-AHMAD-Insights/Ally-Docs/qfl-report.html">Quraner Fariwala Ltd.</a></li>
       </ul>
-          <ul><li>
-          Document's </li>
-          <ul>
-          <li><a href="https://mj-ahmad.github.io/MJ-AHMAD-Insights/Ally-Docs/qfl-report.html">Quraner Fariwala Ltd.
-          </a>
-          </li>
-          </ul>
-          </ul>
-    </li>
-      </details>
+        </li>
+            </details>
     </ol>
-    </ol>
-    </details>
-    
+        </details>
+  </ol>
+</details>
+
+
 ----
+
 <!-- body -->
 
 # MJ-AHMAD Insights
@@ -153,5 +149,3 @@ Feel free to reach out to me for any inquiries, collaborations, or just to say h
 - **Twitter:** [Your Twitter handle]
 
 ---
-
-Thank you for visiting my GitHub profile! I look forward to connecting with you and exploring new opportunities together.
