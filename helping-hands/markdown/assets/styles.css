@@ -1,0 +1,103 @@
+/* Styles */
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar-brand svg {
+  margin-top: -5px;
+}
+
+.navbar.navbar-dark {
+  background: #383838;
+  background: -moz-linear-gradient(45deg, #383838 0%, #3b9047 100%);
+  background: -webkit-linear-gradient(45deg, #383838 0%,#3b9047 100%);
+  background: linear-gradient(45deg, #383838 0%,#3b9047 100%);
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.markdown-body h2 {
+  line-height: 2.5;
+}
+
+.markdown-body h3 {
+  line-height: 2;
+}
+
+.highlight {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.25rem;
+  background: #f4f4f4;
+}
+
+pre.highlight {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.highlight pre code,
+code.highlighter-rouge,
+.tab-content pre.source,
+.rendered pre code {
+  font-family: 'Fira Code', monospace;
+}
+
+code.highlighter-rouge,
+.tab-content pre.source {
+  display: inline-block;
+  padding: 0.125rem 0.25rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.125rem;
+  background: #f4f4f4;
+}
+
+.rendered .highlight pre,
+.highlight .highlight {
+  padding: 0;
+}
+
+.tab-content pre.source {
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+.tab-content .highlight pre {
+  margin-bottom: 0;
+}
+
+.rendered pre {
+  border-radius: 0.125rem;
+  padding: 1.5rem 1.5rem 1rem 1.75rem;
+  background: #f4f4f4;
+}
+
+
+.rendered .task-list {
+  list-style: none;
+}
+
+.tab-content {
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Utilities */
+
+@media only screen and (min-width: 992px) {
+  .w-lg-50 {
+    width: 50%;
+  }
+  .w-lg-100 {
+    width: 100%;
+  }
+}
