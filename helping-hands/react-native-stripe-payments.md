@@ -142,3 +142,24 @@ Then continue [setting up your environment.](https://docs.expo.dev/get-started/s
 - npm run ios
 - npm run web
 ```
+
+----
+
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› shift+m │ more tools
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+λ Bundled 74762ms node_modules\expo-router\node\render.js (931 modules)
+Web node_modules\expo-router\entry.js
