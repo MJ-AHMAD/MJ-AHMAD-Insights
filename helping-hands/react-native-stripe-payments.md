@@ -98,3 +98,47 @@ The process of creating a React Native application with Stripe payments using De
    ```
 2. **Test Payments**: Make sure to test the payment process to ensure everything is working correctly.
 
+----
+
+<!-- -->
+
+# Expo
+
+## Create amazing apps that run everywhere
+Build one JavaScript/TypeScript project that runs natively on all your users' devices.
+   ```
+npx create-expo-app@latest
+```
+
+Then continue [setting up your environment.](https://docs.expo.dev/get-started/set-up-your-environment)
+
+
+
+### To choose from all available templates pass in the --template arg:
+```
+  $ npx create-expo-app --template
+```
+
+### To choose from all available examples pass in the --example arg:
+```
+  $ npx create-expo-app --example
+```
+
+### 105 packages are looking for funding
+  run `npm fund` for details
+
+### To address all issues (including breaking changes), run:
+```
+  npm audit fix --force
+```
+
+ - Run `npm audit` for details. 
+
+
+### To run your project, navigate to the directory and run one of the following npm commands.
+```
+- cd MyStripe
+- npm run android
+- npm run ios
+- npm run web
+```
