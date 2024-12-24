@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CrestWave</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        <style >
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        .container p {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .header-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: flex-start; /* Change this line */
+            align-items: center;
+            background-color: #e0f7fa;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+            .header-content h1 {
+                flex: 1;
+                text-align: left; /* Change this line */
+                margin: 0;
+            }
+
+            .header-content img {
+                width: 50px;
+                height: auto;
+            }
+
+            .header-content h2 {
+                flex: 1;
+                text-align: center; /* Change this line */
+                margin: 0;
+            }
+
+        .faq-section {
+            margin-top: 40px;
+        }
+
+
+            .faq-section h2 {
+                text-align: center;
+            }
+
+        .faq {
+            margin: 20px 0;
+            cursor: pointer;
+        }
+
+            .faq h3 {
+                margin: 0;
+                padding: 10px;
+                background: #f4f4f4;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+
+            .faq p {
+                display: none;
+                margin: 0;
+                padding: 10px;
+                background: #fff;
+                border: 1px solid #ddd;
+                border-top: none;
+                border-radius: 0 0 5px 5px;
+            }
+
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .social-icons a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: #333;
+                font-size: 24px;
+            }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .footer-buttons {
+            margin-top: 10px;
+        }
+
+            .footer-buttons a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+                padding: 10px 20px;
+                background: #4CAF50;
+                border-radius: 5px;
+            }
+
+                .footer-buttons a:hover {
+                    background: #45a049;
+                }
+
+        section {
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            color: black;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .section a {
+            color: antiquewhite;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: border-box;
+            border-radius: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid service py-5 bg-light">
+        <div class="container py-5">
+            <img src="img/bb1.jpg" alt="Future Generation of Educated Bangladesh" class="header-image">
+            <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                <h1 class="mb-0">Empowering Education and Sustainability</h1>
+                <img src="img/g1.gif" alt="Description of GIF" width="100" height="100">
+                <p>Protecting our environment is the need of the hour. Your support will help us safeguard our environment and ensure a healthy planet for future generations.</p>
+                <p>In the current context of Bangladesh, emphasizing education and sustainability is crucial. Through proper planning and initiatives, we can build an educated and disciplined future generation capable of addressing the challenges posed by climate change.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/j0.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Forest Conservation and Reforestation</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Forests are the lungs of our environment. Your donation will support forest conservation and reforestation projects, helping to absorb carbon and protect biodiversity.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/j01.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Combating Climate Change</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Climate change is a major threat to our planet. Your support will fund research and initiatives to combat climate change, securing our future.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/1.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Plastic Pollution Control</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Plastic pollution is a significant problem for our oceans and land. Your support will help control plastic pollution and fund recycling projects</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/w1.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Water Conservation and Management</a>
+                        </div>
+                    </div>
+                    <p class="my-4">The lack of clean water is a global issue. Your donation will support water conservation and management projects, ensuring access to clean water</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/j1.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Promoting Renewable Energy</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Renewable energy is the future of our energy sources. Your support will fund renewable energy projects, increasing the use of eco-friendly energy.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/j2.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Wildlife Conservation</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Wildlife is an essential part of our environment. Your donation will support wildlife conservation projects, helping to protect biodiversity</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/j3.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Pollution Control and Air Quality Improvement</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Air pollution is harmful to our health. Your support will fund pollution control and air quality improvement projects</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/j4.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Sustainable Agriculture and Food Security</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Sustainable agriculture helps ensure food security. Your donation will support sustainable agriculture projects, promoting eco-friendly farming practices</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/10incl.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Inclusive and Quality Education for All</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Ensuring inclusive and quality education for all should be our first step. Improving the quality of education from primary to higher education and making educational opportunities accessible to everyone is essential.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/10teac.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Teacher Training and Development</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Teacher training and development are vital for enhancing the quality of education. Increasing teachers' skills through modern teaching methods and technology is necessary.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/10envi.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Environmental Education and Awareness</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Raising environmental education and awareness is crucial. Students need to be made aware of the importance of the environment and the impacts of climate change.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/10sust.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Sustainable School Infrastructure</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Building sustainable school infrastructure is important, which should be environmentally friendly and energy-efficient. Schools can be constructed using solar energy, rainwater harvesting, and recyclable materials.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/10comm.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Community Engagement and Participation</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Community engagement and participation are essential for education and sustainability. Working together with local communities can improve the quality of education and protect the environment.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/10tech.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Technology Integration in Education</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Integrating technology in education can play a significant role in improving the quality of education. Using online education, digital classrooms, and e-learning platforms can make students more proficient.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/jf1.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Climate-Resilient Curriculum</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Preparing students to adapt to climate change is necessary. A climate-resilient curriculum should be developed to educate students about the impacts of climate change and ways to address them.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-item">
+                        <img src="img/j4.jpg" class="img-fluid w-100" alt="Image">
+                        <div class="service-link">
+                            <a href="#" class="h4 mb-0">Green Initiatives in Schools</a>
+                        </div>
+                    </div>
+                    <p class="my-4">Schools should adopt green initiatives such as tree planting, creating gardens, and recycling projects. These initiatives will encourage students to be responsible towards the environment.</p>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Please Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+    <div class="container">
+        <div class="faq-section">
+            <h2>FAQ</h2>
+            <div class="faq">
+                <h3>What is the importance of inclusive education?</h3>
+                <p>Inclusive education ensures that all students, regardless of their background or abilities, have access to quality education and opportunities to succeed. It promotes equality and helps in building a more inclusive society.</p>
+            </div>
+            <div class="faq">
+                <h3>How can technology improve education?</h3>
+                <p>Technology can enhance education by providing access to a vast array of online resources, enabling digital classrooms, and facilitating e-learning platforms. It makes learning more interactive, accessible, and personalized, catering to the needs of individual students.</p>
+            </div>
+            <div class="faq">
+                <h3>What are green initiatives in schools?</h3>
+                <p>Green initiatives in schools include activities like tree planting, creating gardens, and recycling projects. These initiatives promote environmental responsibility among students and help in creating a sustainable and eco-friendly school environment.</p>
+            </div>
+            <div class="faq">
+                <h3>Why is teacher training important?</h3>
+                <p>Teacher training is crucial for enhancing the quality of education. Well-trained teachers are better equipped with modern teaching methods and technologies, which can significantly improve student learning outcomes and overall educational standards.</p>
+            </div>
+            <div class="faq">
+                <h3>How can community engagement benefit education?</h3>
+                <p>Community engagement in education fosters a collaborative environment where local communities actively participate in the educational process. It helps in addressing local educational needs, improving school facilities, and creating a supportive learning environment for students.</p>
+            </div>
+            <div class="faq">
+                <h3>What is a climate-resilient curriculum?</h3>
+                <p>A climate-resilient curriculum is designed to educate students about the impacts of climate change and ways to adapt to it. It includes topics on environmental science, sustainable practices, and disaster preparedness, preparing students to tackle future climate challenges effectively.</p>
+            </div>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/MdJaforAhmad1989" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/QuranerFariwala" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/jafor-ahmod/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.github.con/mjahmad1/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://orcid.org/0009-0008-8560-0756" target="_blank"><i class="fab fa-orcid"></i></a>
+    </div>
+    <footer>
+        <p>© 2024 CrestWave</p>
+        <p><b>With a Vision for Tomorrow's Leaders</b> <br>by <a href="https://climate.stripe.com/ArsPAE">MJ-AHMAD</a></p>
+        <p><a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a> | <a href="index.html">Home</a> | <a href="support.html">Support</a></p>
+    </footer>
+
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        document.querySelectorAll('.faq h3').forEach((question) => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });</script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('spinner').classList.remove('show');
+        });
+    </script>
+
+</body>
+
+</html>

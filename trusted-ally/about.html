@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CrestWave</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+    <meta charset="utf-8">
+    <title>CrestWave</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        .container p {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .header-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: flex-start; /* Change this line */
+            align-items: center;
+            background-color: #e0f7fa;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+            .header-content h1 {
+                flex: 1;
+                text-align: left; /* Change this line */
+                margin: 0;
+            }
+
+            .header-content img {
+                width: 50px;
+                height: auto;
+            }
+
+            .header-content h2 {
+                flex: 1;
+                text-align: center; /* Change this line */
+                margin: 0;
+            }
+
+        .faq-section {
+            margin-top: 40px;
+        }
+
+
+            .faq-section h2 {
+                text-align: center;
+            }
+
+        .faq {
+            margin: 20px 0;
+            cursor: pointer;
+        }
+
+            .faq h3 {
+                margin: 0;
+                padding: 10px;
+                background: #f4f4f4;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+
+            .faq p {
+                display: none;
+                margin: 0;
+                padding: 10px;
+                background: #fff;
+                border: 1px solid #ddd;
+                border-top: none;
+                border-radius: 0 0 5px 5px;
+            }
+
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .social-icons a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: #333;
+                font-size: 24px;
+            }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .footer-buttons {
+            margin-top: 10px;
+        }
+
+            .footer-buttons a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+                padding: 10px 20px;
+                background: #4CAF50;
+                border-radius: 5px;
+            }
+
+                .footer-buttons a:hover {
+                    background: #45a049;
+                }
+
+        section {
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            color: black;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .section a {
+            color: antiquewhite;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: border-box;
+            border-radius: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+ 
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    </head>
+
+<body>
+    <div class="text-center mx-auto pb-5">
+        <img src="img/g1.gif" alt="Description of GIF" width="100" height="100">
+    </div>
+    <!-- About Start -->
+    <div class="container-fluid about  py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-xl-5">
+                    <div class="h-100">
+                        <img src="img/2/65.png" class="img-fluid w-100 h-100" alt="Image">
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <h5 class="text-uppercase text-primary">About Us</h5>
+                    <h1 class="mb-4">Our main goal is to Building a Bright, Peaceful, and Modern Bangladesh with People Working Together</h1>
+                    <p class="fs-5 mb-4">
+                        Through Crest-Wave, we aim to pay deep respect to the heroes who sacrificed their lives for the country's independence.Our goal is to make advanced technology accessible and simplify the use of all powerful Microsoft tools for students.
+                    </p>
+                    <div class="tab-class bg-secondary p-4">
+                        <ul class="nav d-flex mb-2">
+                            <li class="nav-item mb-3">
+                                <a class="d-flex py-2 text-center bg-white active" data-bs-toggle="pill" href="#tab-1">
+                                    <span class="text-dark" style="width: 150px;">About</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a class="d-flex py-2 mx-3 text-center bg-white" data-bs-toggle="pill" href="#tab-2">
+                                    <span class="text-dark" style="width: 150px;">Mission</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a class="d-flex py-2 text-center bg-white" data-bs-toggle="pill" href="#tab-3">
+                                    <span class="text-dark" style="width: 150px;">Vision</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane fade show p-0 active">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex">
+                                            <div class="text-start my-auto">
+                                                <p class="mb-4">
+                                                    Protecting Freedom with the Power of Technology, Crest-Wave's Commitment! we need to build a bright, peaceful, modern, educated, cooperative, and compassionate Bangladesh.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-pane fade show p-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex">
+                                            <div class="text-start my-auto">
+                                                <p class="mb-4">
+                                                    Crest-Wave's
+                                                    mission is to empower and ensure the security of Bangladeshi students through advanced technology. We leverage the world's highest quality management systems and the powerful tools of Microsoft to make students' activities more effective and secure.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-3" class="tab-pane fade show p-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex">
+                                            <div class="text-start my-auto">
+                                                <p class="mb-4">
+                                                    "To create a world where every student has access to quality education and a sustainable future."
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="mb-4">
+                Proud Stripe Climate Member
+            </h1>
+            <p class="mb-4"><b>"Crest-Wave is proud to be a part of Stripe Climate, contributing to the fight against climate change by supporting innovative carbon removal technologies. As a Stripe Climate Member, we commit a portion of our revenue to help scale promising carbon removal solutions, ensuring a sustainable future for our planet."</b></p>
+            <a href="https://climate.stripe.com/ArsPAE" target="_blank">Learn More About Stripe Climate</a>
+        </div>
+    </div>
+<!-- New banner 9/7/2024 -->
+<div id="dccn-fd039f3b-c43c-442c-94a4-87aedb8ff20d"></div>
+<script type='text/javascript'>
+    (function() {
+        const scriptId = 'fd039f3b-c43c-442c-94a4-87aedb8ff20d';
+        const bannerHeight = 600; /* Override banner height */
+        const bannerWidth = 160; /* Override banner witdh */
+
+        /* For some content with no html, inline mode is not supported. */
+        const embedType = 'banner'; /* Set embed type: inline or banner. */
+
+        const script = document.createElement('script');
+        script.defer = true;
+        script.src = `https://dmc.partner.microsoft.com/dccn/api/embedded-campaigns/js?id=${scriptId}&height=${bannerHeight}&width=${bannerWidth}&embedType=${embedType}`;
+        document.body.append(script);
+    })();
+</script>
+    <!-- Blog Start -->
+    <div class="container-fluid blog py-5 mb-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                <h1 class="mb-0">Building a Bright, Peaceful, and Modern Bangladesh with People Working Together</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 col-xl-3">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/b2.jpg" class="img-fluid w-100" alt="">
+                            <div class="blog-info">
+                                <span><i class="fa fa-clock"></i> Aug 27.2024</span>
+                                <div class="d-flex">
+                                    <span class="me-30578"> 30578 <i class="fa fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="search-icon">
+                                <a href="img/b2.jpg" data-lightbox="Blog-1" class="my-auto"><i class="fas fa-search-plus btn-primary text-white p-3"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-dark border p-4 ">
+                            <h4 class="mb-4">Dr. Muhammad Yunus: An Inspiration for Students</h4>
+                            <p class="mb-4"><b>Dr. Muhammad Yunus,</b> Nobel Prize winner and founder of Grameen Bank, is a symbol of inspiration for the students of our country.As he once said, "I’m encouraging young people to become ... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/b3.jpg" class="img-fluid w-100" alt="">
+                            <div class="blog-info">
+                                <span><i class="fa fa-clock"></i> Aug 27.2024</span>
+                                <div class="d-flex">
+                                    <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
+                                    <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
+                                </div>
+                            </div>
+                            <div class="search-icon">
+                                <a href="img/b3.jpg" data-lightbox="Blog-2" class="my-auto"><i class="fas fa-search-plus btn-primary text-white p-3"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-dark border p-4 ">
+                            <h4 class="mb-4">Bangladesh on the Global Stage</h4>
+                            <p class="mb-4">Our students, innovators, and leaders are shining brightly, showcasing the potential and promise of our nation. Together, we can achieve great things and build a brighter future<br> for al... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/b4.jpg" class="img-fluid w-100" alt="">
+                            <div class="blog-info">
+                                <span><i class="fa fa-clock"></i> Aug 27.2024</span>
+                                <div class="d-flex">
+                                    <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
+                                    <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
+                                </div>
+                            </div>
+                            <div class="search-icon">
+                                <a href="img/b4.jpg" data-lightbox="Blog-3" class="my-auto"><i class="fas fa-search-plus btn-primary text-white p-3"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-dark border p-4 ">
+                            <h4 class="mb-4">A Nation of Bright Minds and Big Dreams</h4>
+                            <p class="mb-4">Bangladesh is a country filled with talented individuals and ambitious dreams. Our students, innovators, and leaders are making significant contributions on the global stage, showcasing <br>the...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/b5.jpg" class="img-fluid w-100" alt="">
+                            <div class="blog-info">
+                                <span><i class="fa fa-clock"></i> Aug 27.2024</span>
+                                <div class="d-flex">
+                                    <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
+                                    <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
+                                </div>
+                            </div>
+                            <div class="search-icon">
+                                <a href="img/b5.jpg" data-lightbox="Blog-4" class="my-auto"><i class="fas fa-search-plus btn-primary text-white p-3"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-dark border p-4 ">
+                            <h4 class="mb-4">A Beacon of Innovation and Excellence</h4>
+                            <p class="mb-4">Bangladesh is a land where dreams take flight and brilliance shines through. Our students, innovators, and leaders are not just participants but pioneers on the global stage. Their relentless<br> pursuit...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+   
+    <div class="text-center mx-auto pb-5">
+        <img src="img/g1.gif" alt="Description of GIF" width="100" height="100">
+    </div>
+
+
+    <!-- Services End -->
+    <div class="container">
+        <div class="faq-section">
+            <h2>FAQ</h2>
+            <div class="faq">
+                <h3>What is the importance of inclusive education?</h3>
+                <p>Inclusive education ensures that all students, regardless of their background or abilities, have access to quality education and opportunities to succeed. It promotes equality and helps in building a more inclusive society.</p>
+            </div>
+            <div class="faq">
+                <h3>How can technology improve education?</h3>
+                <p>Technology can enhance education by providing access to a vast array of online resources, enabling digital classrooms, and facilitating e-learning platforms. It makes learning more interactive, accessible, and personalized, catering to the needs of individual students.</p>
+            </div>
+            <div class="faq">
+                <h3>What are green initiatives in schools?</h3>
+                <p>Green initiatives in schools include activities like tree planting, creating gardens, and recycling projects. These initiatives promote environmental responsibility among students and help in creating a sustainable and eco-friendly school environment.</p>
+            </div>
+            <div class="faq">
+                <h3>Why is teacher training important?</h3>
+                <p>Teacher training is crucial for enhancing the quality of education. Well-trained teachers are better equipped with modern teaching methods and technologies, which can significantly improve student learning outcomes and overall educational standards.</p>
+            </div>
+            <div class="faq">
+                <h3>How can community engagement benefit education?</h3>
+                <p>Community engagement in education fosters a collaborative environment where local communities actively participate in the educational process. It helps in addressing local educational needs, improving school facilities, and creating a supportive learning environment for students.</p>
+            </div>
+            <div class="faq">
+                <h3>What is a climate-resilient curriculum?</h3>
+                <p>A climate-resilient curriculum is designed to educate students about the impacts of climate change and ways to adapt to it. It includes topics on environmental science, sustainable practices, and disaster preparedness, preparing students to tackle future climate challenges effectively.</p>
+            </div>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/MdJaforAhmad1989" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/QuranerFariwala" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/jafor-ahmod/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.github.con/mjahmad1/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://orcid.org/0009-0008-8560-0756" target="_blank"><i class="fab fa-orcid"></i></a>
+    </div>
+    <footer>
+        <p>© 2024 CrestWave</p>
+        <p><b>With a Vision for Tomorrow's Leaders</b> <br>by <a href="https://climate.stripe.com/ArsPAE">MJ-AHMAD</a></p>
+        <p><a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a> | <a href="index.html">Home</a> | <a href="support.html">Support</a></p>
+    </footer>
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+document.querySelectorAll('.faq h3').forEach((question) => {
+question.addEventListener('click', () => {
+const answer = question.nextElementSibling;
+answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+});
+});</script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('spinner').classList.remove('show');
+        });
+    </script>
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
