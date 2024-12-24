@@ -1,0 +1,43 @@
+/* Facebook */
+.facebook-profile {
+width: 180px;
+height: 180px;
+}
+
+.facebook-cover {
+width: 820px;
+height: 312px;
+}
+
+/* Instagram */
+.instagram-post {
+width: 1080px;
+height: 1080px;
+}
+
+.instagram-story {
+width: 1080px;
+height: 1920px;
+}
+
+/* Twitter */
+.twitter-profile {
+width: 400px;
+height: 400px;
+}
+
+.twitter-header {
+width: 1500px;
+height: 500px;
+}
+
+/* LinkedIn */
+.linkedin-profile {
+width: 400px;
+height: 400px;
+}
+
+.linkedin-banner {
+width: 1584px;
+height: 396px;
+}
